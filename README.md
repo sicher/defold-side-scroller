@@ -14,7 +14,7 @@ The game is currently not much fun, but you can easily improve it with some simp
 
 First, let’s adjust the speed of the space ship:
 
-1. Open the file "spaceship.script" with the menu item <kbd>File ▸ Open Asset...</kbd>
+1. Open the file [spaceship.script](defold://open?resource=/spaceship/spaceship.script) with the menu item <kbd>File ▸ Open Asset...</kbd>
 
    ![](.doc/open_asset.jpg)
 
@@ -112,7 +112,7 @@ Factory Components are responsible for making sure game objects of various kind 
 
 3. Set the new factory component's *Id* property to "bonus_factory".
 
-4. Set its *Prototype* property to "bonus_star.go" with the browse-button (<kdb>...</kdb>)
+4. Set its *Prototype* property to "bonus_star.go" with the browse-button (<kbd>...</kbd>)
 
    ![](.doc/factory.jpg)
 
@@ -136,7 +136,7 @@ The last step is to make sure the factory game object starts creating the bonus 
 
    This causes the bonus stars to appear roughly 20% of the time.
 
-3. Restart the game by closing the window (or press <kbd>Escape</kbd>) to exit, then do <kbd>Project ▸ Build</kbd> in the editor.
+3. Restart the game by closing the window (or press <kbd>Escape</kbd>) to exit, then select <kbd>Project ▸ Build</kbd> from the editor menu.
 
    The new bonus stars will start to appear!
 
@@ -145,3 +145,5 @@ The last step is to make sure the factory game object starts creating the bonus 
 *You Win!*
 
 Now go ahead and create more games in Defold!
+
+----
